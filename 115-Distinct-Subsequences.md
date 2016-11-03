@@ -19,7 +19,6 @@ public:
     int numDistinct(string c, string t)
     {
         int m = c.size(), n = t.size();
-        if(!m && n) return 0;
         int map[n + 1] = { 1, 0};
         int last = 1;
         for(int i = 1; i <= m; ++i)
